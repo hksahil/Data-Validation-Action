@@ -27,7 +27,7 @@ jobs:
     - name: Publish files to github repo
       uses: mikeal/publish-to-github-action@master
       env:
-        GITHUN_TOKEN: ${{secrets.GITHUB_TOKEN}}
+        GITHUB_TOKEN: ${{secrets.GITHUB_TOKEN}}
         BRANCH_NAME: 'main'
 
 
